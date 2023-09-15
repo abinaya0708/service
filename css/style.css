@@ -3,6 +3,22 @@
 	padding:0;
 	box-sizing:border-box;
 }
+@media(min-width:320px){ 
+	 .service-col{ 
+		 width:100%; 
+	} 
+}
+ @media(min-width:760px){ 
+	.service-col{ 
+		 width:50%; 
+	 } 
+} 
+@media(min-width:960px){ 
+ .service-col{ 
+		 width:33.33%; 
+	} 
+ } 
+
 .container{
 	width:90%;
 	margin:auto;
@@ -22,7 +38,7 @@
 	flex-wrap:wrap;
 }
 .service-col{
-	width:33.33%;
+	/*width:33.33%;*/
 	padding:50px 10px;
 }
 .service-card{
